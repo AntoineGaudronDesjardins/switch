@@ -1,0 +1,67 @@
+#
+# Network configuration for the switch
+#
+
+# Static config for eth0
+auto eth0
+iface eth0 inet static
+        address 192.168.31.10
+        netmask 255.255.255.0
+        gateway 192.168.31.2
+        up echo nameserver 8.8.8.8 > /etc/resolv.conf
+
+# Static config for eth1
+auto eth1
+iface eth1 inet static
+        address 192.168.31.11
+        netmask 255.255.255.0
+        gateway 192.168.31.2
+        up echo nameserver 8.8.8.8 > /etc/resolv.conf
+
+# Static config for eth2
+auto eth2
+iface eth2 inet static
+        address 192.168.31.12
+        netmask 255.255.255.0
+        gateway 192.168.31.2
+        up echo nameserver 8.8.8.8 > /etc/resolv.conf
+
+# Static config for eth3
+auto eth3
+iface eth3 inet static
+      address 192.168.31.13
+      netmask 255.255.255.0
+      gateway 192.168.31.2
+      up echo nameserver 8.8.8.8 > /etc/resolv.conf
+
+# Static config for eth4
+auto eth4
+iface eth4 inet static
+      address 192.168.31.14
+      netmask 255.255.255.0
+      gateway 192.168.31.2
+      up echo nameserver 8.8.8.8 > /etc/resolv.conf
+
+# Static config for eth5
+auto eth5
+iface eth5 inet static
+      address 192.168.31.15
+      netmask 255.255.255.0
+      gateway 192.168.31.2
+      up echo nameserver 8.8.8.8 > /etc/resolv.conf
+
+# Static config for eth6
+auto eth6
+iface eth6 inet static
+      address 192.168.31.16
+      netmask 255.255.255.0
+      gateway 192.168.31.2
+      up echo nameserver 8.8.8.8 > /etc/resolv.
+
+# Static config for eth7
+auto eth7
+iface eth7 inet static
+      address 192.168.31.17
+      netmask 255.255.255.0
+      gateway 192.168.31.2
+      up echo nameserver 8.8.8.8 > /etc/resolv.conf
